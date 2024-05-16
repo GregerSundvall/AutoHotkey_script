@@ -1,5 +1,7 @@
 ﻿#Requires AutoHotkey v2.0
 
+
+
 !^q:: WinClose(ActiveHwnd := WinExist("A"))
 
 ^![::å
@@ -28,3 +30,19 @@ CapsLock:: {
 `;::ö
 +`;::Ö
 #HotIf
+
+/*
+WheelUp::WheelDown
+WheelDown::WheelUp
+*/
+/*
+WheelUp:: {
+    SendInput "{WheelDown}"
+    Return
+}
+
+WheelDown::{
+    SendInput "{WheelUp}"
+    Return
+}
+*/
