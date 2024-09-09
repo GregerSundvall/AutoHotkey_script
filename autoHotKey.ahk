@@ -11,7 +11,9 @@ SwitchToOrStartApp(query, command) {
 	}
 }
 
-#f::SwitchToOrStartApp("ahk_class CabinetWClass", "explorer")
+#e::SwitchToOrStartApp("ahk_class CabinetWClass", "explorer")
+#f::SwitchToOrStartApp("firefox.exe", "firefox")
+#t::SwitchToOrStartApp("ahk_class CASCADIA_HOSTING_WINDOW_CLASS", "wt")
 
 /*
 Explorer(){
